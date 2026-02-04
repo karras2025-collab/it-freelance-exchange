@@ -80,6 +80,7 @@ export const CATEGORIES = Object.values(Category);
 
 // --- Навыки по категориям ---
 export const SKILLS_BY_CATEGORY: Record<Category, string[]> = {
+    // IT-сфера
     [Category.DESIGN]: ['Figma', 'Sketch', 'Adobe XD', 'Prototyping', 'User Research', 'Wireframing'],
     [Category.GRAPHIC]: ['Photoshop', 'Illustrator', 'Logo Design', 'Branding', 'Print Design'],
     [Category.WEB]: ['React', 'Vue', 'Angular', 'TypeScript', 'Node.js', 'Next.js', 'PHP', 'Laravel', 'Django', 'FastAPI'],
@@ -90,6 +91,11 @@ export const SKILLS_BY_CATEGORY: Record<Category, string[]> = {
     [Category.DATA]: ['Python', 'TensorFlow', 'PyTorch', 'SQL', 'Pandas', 'Spark', 'MLOps'],
     [Category.SECURITY]: ['Penetration Testing', 'OWASP', 'Network Security', 'Cryptography'],
     [Category.WRITING]: ['Technical Writing', 'API Documentation', 'User Guides', 'Markdown'],
+    // Услуги
+    [Category.COURIER]: ['Пешая доставка', 'Авто доставка', 'Срочная доставка', 'Доставка еды', 'Доставка документов', 'Межгородская доставка'],
+    [Category.CLEANING]: ['Уборка квартир', 'Уборка офисов', 'Генеральная уборка', 'Мойка окон', 'Химчистка', 'Уборка после ремонта'],
+    [Category.TRANSFER]: ['Такси', 'Трансфер в аэропорт', 'Грузоперевозки', 'Переезд', 'Междугородние перевозки', 'Вывоз мусора'],
+    [Category.CONSTRUCTION]: ['Ремонт квартир', 'Электрика', 'Сантехника', 'Малярные работы', 'Плиточные работы', 'Сборка мебели', 'Отделка', 'Строительство'],
     [Category.OTHER]: []
 };
 

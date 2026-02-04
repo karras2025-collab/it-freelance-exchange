@@ -12,8 +12,9 @@ export type ApplicationStatus = 'SENT' | 'VIEWED' | 'SHORTLISTED' | 'ACCEPTED' |
 export type DealStatus = 'IN_PROGRESS' | 'DELIVERED' | 'COMPLETED' | 'CANCELLED';
 export type ReportStatus = 'PENDING' | 'REVIEWED' | 'RESOLVED';
 
-// --- Категории IT ---
+// --- Категории ---
 export enum Category {
+    // IT-сфера
     DESIGN = 'UI/UX, Product Design',
     GRAPHIC = 'Графический дизайн / Брендинг',
     WEB = 'Веб-разработка',
@@ -24,6 +25,11 @@ export enum Category {
     DATA = 'Data / ML',
     SECURITY = 'Кибербезопасность',
     WRITING = 'Техписательство / Документация',
+    // Услуги
+    COURIER = 'Курьерские услуги',
+    CLEANING = 'Уборка',
+    TRANSFER = 'Трансфер / Перевозки',
+    CONSTRUCTION = 'Строительство и ремонт',
     OTHER = 'Другое'
 }
 
